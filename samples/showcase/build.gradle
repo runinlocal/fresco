@@ -42,17 +42,17 @@ android {
     testBuildType "instrumentation"
 
 
-    flavorDimensions "main"
-    productFlavors {
-        main {
-        }
-        instantRunConfig {
-            dimension "main"
-            minSdkVersion 21
-        }
-        internal {
-        }
-    }
+//    flavorDimensions "main"
+//    productFlavors {
+//        main {
+//        }
+//        instantRunConfig {
+//            dimension "main"
+//            minSdkVersion 21
+//        }
+//        internal {
+//        }
+//    }
 
     lintOptions {
         warning 'InvalidPackage'

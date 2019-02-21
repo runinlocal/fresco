@@ -18,6 +18,10 @@ android {
     sourceSets {
         main
     }
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
 }
 
 task sourcesJar(type: Jar) {

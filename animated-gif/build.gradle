@@ -46,6 +46,10 @@ android {
             jniLibs.srcDirs = ndkLibs.collect { "$buildDir/${it[0]}" }
         }
     }
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
     ndkLibs.each { lib -> makeNdkTasks lib[0], lib[1] }
 }
 

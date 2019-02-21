@@ -29,6 +29,10 @@ android {
     lintOptions {
         abortOnError false
     }
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
 }
 
 task sourcesJar(type: Jar) {

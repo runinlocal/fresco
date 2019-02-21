@@ -33,6 +33,7 @@ android {
 
     defaultConfig {
         minSdkVersion rootProject.ext.samplesMinSdkVersion
+        targetSdkVersion 21
     }
 
     lintOptions {

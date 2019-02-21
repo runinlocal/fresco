@@ -4,8 +4,4 @@
     package="com.facebook.imagepipelinebase.test"
     >
 
-  <uses-sdk
-      android:minSdkVersion="9"
-      android:targetSdkVersion="21"
-      />
 </manifest>

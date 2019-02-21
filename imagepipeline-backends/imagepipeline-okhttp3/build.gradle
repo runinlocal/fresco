@@ -28,6 +28,10 @@ android {
     lintOptions {
         warning 'InvalidPackage'
     }
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 25
+    }
 }
 
 task sourcesJar(type: Jar) {

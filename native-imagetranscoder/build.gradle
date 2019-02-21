@@ -65,6 +65,10 @@ android {
     lintOptions {
         abortOnError false
     }
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 21
+    }
     ndkLibs.each { lib -> makeNdkTasks lib[0], lib[1] }
 }
 
